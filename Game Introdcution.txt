@@ -1,0 +1,18 @@
+1, how to run the game in the mac terminal
+
+There are two ways to run this game in the mac terminal. Try both of them if 
+the first one does not work on your mac laptop.
+
+open a terminal, and type:
+export CLASSPATH=$CLASSPATH:Location_of_your_CLASS_PATH file
+then go to the file KimiToAri
+type:
+javac AriSnakeGame/ucsdKWang/SnakeControllerEC.java
+java AriSnakeGame.ucsdKWang.SnakeControllerEC 800 200 900 
+
+here, the last three integer can be changed. The first number must be between
+500 to 800 inclusively, which indicates the size of the whole canvas. The 
+second integer must be a positive integer from 20 to 400 and this number
+must be evenly divided by the first input. The last number will be an integer 
+from 200 to 1000. Make sure that the difficulty of teh game will increase if 
+you decrease the value of input of the last argument. 
